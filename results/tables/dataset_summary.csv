@@ -1,0 +1,6 @@
+Dataset,Task,n_train,n_val,n_test,n_total,d (features),Classes
+concrete,regression,659,165,206,1030,8,—
+energy,regression,491,123,154,768,8,—
+bike_sharing,regression,11122,2781,3476,17379,61,—
+online_shoppers,classification,7891,1973,2466,12330,29,2
+shuttle,classification,37120,9280,11600,58000,7,7

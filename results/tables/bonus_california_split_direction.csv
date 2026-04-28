@@ -1,0 +1,9 @@
+Feature,Top_eig_standard_AGOP,Top_eig_residual_AGOP,Abs_diff
+Cement,0.6102,0.5752,0.035
+Slag,0.3978,0.4366,0.0388
+FlyAsh,0.0288,-0.0144,0.0432
+Water,-0.4675,-0.4905,0.023
+Superplast,0.1443,0.1716,0.0273
+CoarseAgg,-0.1078,-0.1059,0.0018
+FineAgg,-0.0651,-0.0745,0.0094
+Age,0.4619,0.4376,0.0242
