@@ -59,9 +59,9 @@ jupyter notebook
 
 Then execute the notebooks **in order**, top-to-bottom, running every cell:
 
-1. `01_data_loading.ipynb` — downloads and preprocesses 5 datasets via the `ucimlrepo` package. First run takes ~3-5 minutes (UCI fetches each dataset). Subsequent runs are instant (datasets cached). Produces `data/processed/*.pkl`.
+1. `01_data_loading.ipynb` — downloads and preprocesses 5 datasets via the `ucimlrepo` package. First run takes ~3-5 minutes (UCI fetches each dataset). Subsequent runs are instant (datasets cached). Produces `processed/*.pkl`.
 
-2. `02_model_training.ipynb` — trains xRFM, XGBoost, Random Forest on all 5 datasets. **Takes ~20-40 minutes** on GPU. Produces `data/models/*.pkl` and `results/tables/model_results.csv`.
+2. `02_model_training.ipynb` — trains xRFM, XGBoost, Random Forest on all 5 datasets. **Takes ~20-40 minutes** on GPU. Produces `models/*.pkl` and `results/tables/model_results.csv`.
 
 3. `03_scaling_experiment.ipynb` — scaling experiment on Online Shoppers Intent at 5 training sizes. **Takes ~5-10 minutes.** Produces scaling CSV and plots.
 
