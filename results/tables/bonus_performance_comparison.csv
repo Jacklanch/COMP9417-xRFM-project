@@ -1,4 +1,0 @@
-Strategy,Test_RMSE,Split_purity
-Baseline (no split),4.5271,
-Standard AGOP,5.2409,0.5852
-Residual-weighted AGOP,5.1116,0.6867
